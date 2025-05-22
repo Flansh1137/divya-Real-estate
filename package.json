@@ -12,7 +12,6 @@
         "start": "next start",
         "lint": "next lint",
         "prepare": "husky install",
-        "pre-commit": "yarn format & yarn lint --fix",
         "format": "prettier --ignore-path .prettierignore --write \"**/*.{js,jsx,ts,tsx,json,md}\""
     },
     "dependencies": {
